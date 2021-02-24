@@ -30,6 +30,25 @@ class uitestUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testHelloWorld() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let usernameText = app.textFields["usernameText"]
+        usernameText.tap()
+        usernameText.typeText("John")
+        
+        let signInButton = app.buttons["signinButton"]
+        signInButton.tap()
+        
+        let wellcomeText = app.staticTexts["wellcomeLabel"]
+        XCTAssertTrue(wellcomeText.waitForExistence(timeout: 1.0))
+        
+        let expectedLabel = "Hello Mike"
+        XCTAssertEqual(expectedLabel, wellcomeText.label)
+
+    }
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {

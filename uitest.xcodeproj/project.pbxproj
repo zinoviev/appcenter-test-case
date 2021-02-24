@@ -15,6 +15,7 @@
 		04C6A29725C8536300B89090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C6A29525C8536300B89090 /* LaunchScreen.storyboard */; };
 		04C6A2A225C8536300B89090 /* uitestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6A2A125C8536300B89090 /* uitestTests.swift */; };
 		04C6A2AD25C8536300B89090 /* uitestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6A2AC25C8536300B89090 /* uitestUITests.swift */; };
+		04C6A2BE25C85DCD00B89090 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6A2BD25C85DCD00B89090 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		04C6A2A825C8536300B89090 /* uitestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uitestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C6A2AC25C8536300B89090 /* uitestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uitestUITests.swift; sourceTree = "<group>"; };
 		04C6A2AE25C8536300B89090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C6A2BD25C85DCD00B89090 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				04C6A29325C8536300B89090 /* Assets.xcassets */,
 				04C6A29525C8536300B89090 /* LaunchScreen.storyboard */,
 				04C6A29825C8536300B89090 /* Info.plist */,
+				04C6A2BD25C85DCD00B89090 /* SecondViewController.swift */,
 			);
 			path = uitest;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C6A2BE25C85DCD00B89090 /* SecondViewController.swift in Sources */,
 				04C6A28F25C8536000B89090 /* ViewController.swift in Sources */,
 				04C6A28B25C8536000B89090 /* AppDelegate.swift in Sources */,
 				04C6A28D25C8536000B89090 /* SceneDelegate.swift in Sources */,
@@ -437,13 +441,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XKY7Q45QRK;
+				DEVELOPMENT_TEAM = GWBZQBXRA7;
 				INFOPLIST_FILE = uitest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zigi.wazup.uitest.uitest;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.StarifiedNative;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,13 +460,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XKY7Q45QRK;
+				DEVELOPMENT_TEAM = GWBZQBXRA7;
 				INFOPLIST_FILE = uitest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zigi.wazup.uitest.uitest;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.StarifiedNative;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,7 +479,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XKY7Q45QRK;
+				DEVELOPMENT_TEAM = GWBZQBXRA7;
 				INFOPLIST_FILE = uitestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,7 +501,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XKY7Q45QRK;
+				DEVELOPMENT_TEAM = GWBZQBXRA7;
 				INFOPLIST_FILE = uitestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -518,7 +522,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XKY7Q45QRK;
+				DEVELOPMENT_TEAM = GWBZQBXRA7;
 				INFOPLIST_FILE = uitestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,7 +542,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XKY7Q45QRK;
+				DEVELOPMENT_TEAM = GWBZQBXRA7;
 				INFOPLIST_FILE = uitestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
